@@ -2,6 +2,10 @@
 # y = $s2
 # z = $s3
 
+.text
+.globl main
+main:
+
 # x = maior inteiro possivel
 ori $s1, $0, 0x7FFF
 sll $s1, 16

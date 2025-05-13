@@ -1,6 +1,10 @@
 # x = $s1
 # y = $s2
 
+.text
+.globl main
+main:
+
 # x = 1
 ori $s1, $0, 0x1
 

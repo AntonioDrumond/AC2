@@ -5,6 +5,10 @@
 # x = $s5
 # y = $s6
 
+.text
+.globl main
+main:
+
 # Atribuir valores das variaveis iniciais
 addi $s1, $0, 2
 addi $s2, $0, 3

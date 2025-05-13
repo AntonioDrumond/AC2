@@ -2,6 +2,10 @@
 # y = $s2
 # z = $s3
 
+.text
+.globl main
+main:
+
 # x = 100000
 ori $s1, $0, 0x1000
 sll $s1, $s1, 4

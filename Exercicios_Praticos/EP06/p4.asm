@@ -2,6 +2,10 @@
 # y = $s2
 # z = $s3
 
+.text
+.globl main
+main:
+
 # x = 3
 ori $s1, $0, 3
 
