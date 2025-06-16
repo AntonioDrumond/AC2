@@ -8,12 +8,12 @@ main:
 
 # x = maior inteiro possivel
 ori $s1, $0, 0x7FFF
-sll $s1, 16
+sll $s1, $t1, 16
 ori $s1, $s1, 0xFFFF
 
 # y = 300000
 ori $s2, $0, 0x0004
-sll $s2, 16
+sll $s2, $s2, 16
 ori $s2, $s2, 0x93E0
 
 # z = x - 4y
